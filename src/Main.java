@@ -4,7 +4,6 @@ public class Main {
         int[] inputArray1 = {1000, 2000, 1500, 3000, 2500};
         float[] outputArray1 = new float[4];
 
-        float sum1 = 0;
         int max1 = Integer.MIN_VALUE;
         int min1 = Integer.MAX_VALUE;
 
