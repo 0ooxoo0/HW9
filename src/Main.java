@@ -78,7 +78,9 @@ public class Main {
         System.out.println("Задача 4:");
         System.out.print("inputArray4: ");
         for (int v : inputArray4) System.out.print(v + " ");
+        {
         System.out.println();
+        }
         System.out.println("outputArray4 (нет просрочек?): " + outputArray4[0]);
         System.out.println();
 
@@ -95,7 +97,9 @@ public class Main {
         System.out.println("Задача 5:");
         System.out.print("inputArray5: ");
         for (int v : inputArray5) System.out.print(v + " ");
-        System.out.println();
+        {
+            System.out.println();
+        }
         System.out.println("outputArray5 (рентабельные месяцы): " + outputArray5[0]);
     }
 }
