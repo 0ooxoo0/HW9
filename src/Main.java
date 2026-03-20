@@ -22,10 +22,14 @@ public class Main {
 
         System.out.println("Задача 1:");
         System.out.print("inputArray1: ");
-        for (int v : inputArray1) System.out.print(v + " ");
+        for (int v : inputArray1) {
+            System.out.print(v + " ");
+        }
         System.out.println();
         System.out.print("outputArray1: ");
-        for (float v : outputArray1) System.out.print(v + " ");
+        for (float v : outputArray1) {
+            System.out.print(v + " ");
+        }
         System.out.println("\n");
 
         // Задача 2: налог 13% с каждой выплаты
@@ -39,10 +43,14 @@ public class Main {
 
         System.out.println("Задача 2:");
         System.out.print("inputArray2: ");
-        for (int v : inputArray2) System.out.print(v + " ");
+        for (int v : inputArray2) {
+            System.out.print(v + " ");
+        }
         System.out.println();
         System.out.print("outputArray2 (налоги): ");
-        for (float v : outputArray2) System.out.print(v + " ");
+        for (float v : outputArray2) {
+            System.out.print(v + " ");
+        }
         System.out.println("\n");
 
         // Задача 3: бонусы выше 5000 → true/false
@@ -56,10 +64,14 @@ public class Main {
 
         System.out.println("Задача 3:");
         System.out.print("inputArray3: ");
-        for (int v : inputArray3) System.out.print(v + " ");
+        for (int v : inputArray3) {
+            System.out.print(v + " ");
+        }
         System.out.println();
         System.out.print("outputArray3 (флаги >5000): ");
-        for (boolean v : outputArray3) System.out.print(v + " ");
+        for (boolean v : outputArray3) {
+            System.out.print(v + " ");
+        }
         System.out.println("\n");
 
         // Задача 4: проверка просрочек (отрицательный остаток)
@@ -77,10 +89,10 @@ public class Main {
 
         System.out.println("Задача 4:");
         System.out.print("inputArray4: ");
-        for (int v : inputArray4) System.out.print(v + " ");
-        {
-        System.out.println();
+        for (int v : inputArray4) {
+            System.out.print(v + " ");
         }
+        System.out.println();
         System.out.println("outputArray4 (нет просрочек?): " + outputArray4[0]);
         System.out.println();
 
@@ -96,10 +108,10 @@ public class Main {
 
         System.out.println("Задача 5:");
         System.out.print("inputArray5: ");
-        for (int v : inputArray5) System.out.print(v + " ");
-        {
-            System.out.println();
+        for (int v : inputArray5) {
+            System.out.print(v + " ");
         }
+        System.out.println();
         System.out.println("outputArray5 (рентабельные месяцы): " + outputArray5[0]);
     }
 }
