@@ -10,8 +10,8 @@ public class Main {
 
         for (int value : inputArray1) {
             sum1 += value;
-            if (value > max1) max1 = value;
-            if (value < min1) min1 = value;
+            if (value > max1) {max1 = value;}
+            if (value < min1) {min1 = value;}
         }
         float average1 = sum1 / inputArray1.length;
 
@@ -102,7 +102,7 @@ public class Main {
 
         int count = 0;
         for (int value : inputArray5) {
-            if (value > 0) count++;
+            if (value > 0) {count++;}
         }
         outputArray5[0] = count;
 
